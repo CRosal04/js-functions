@@ -31,18 +31,25 @@ else{
 // for the second function expression, let's write code that tells the user whether or not their answer to a trivia question is correct. This will accept a parameter for a letter answer, and can use either a switch statement or a series of if/else/if statements for the logic
 // name this variable quizAnswer
 // TO DO
+let quizAnswer = function (answer){
 		// if they answered a return "Nope. GIT215 is the Introductory HTML/CSS course."
-
+switch( answer){
 	
+    case "a":
+        return "Nope. GIT215 is the Introductory HTML/CSS course.";
 		// if they answered b return "Nope. GIT337 is the Intermediate HTML/CSS course."
-
-	
+    case "b":
+        return "Nope. GIT414 is the Responsive HTML/CSS course.";
 		// if they answered c return "Nope. GIT414 is the Responsive HTML/CSS course."
 
-	
+    case "c":
+        return "You got it! GIT417 is the Introductory JavaScript course.";
 		// if they answered d return "You got it! GIT417 is the Introductory JavaScript course."
-
-
+    case "d":
+        return "You got it! GIT417 is the Introductory JavaScript course.";
+        
+    }
+}
 // For box five, re-write the first standard function in the arrow function syntax
 // name the variable addTwoNumsArrow
 // TO DO
