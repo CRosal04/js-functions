@@ -21,7 +21,12 @@ function concatenateStrings (str1 , str2){
 // TO DO
 
 let compareToHundred = function( num1){
-
+if (num1 < 100){
+    return "number is less than 100";
+}
+else{
+    return "that is 100 or greater";
+}
 }
 // for the second function expression, let's write code that tells the user whether or not their answer to a trivia question is correct. This will accept a parameter for a letter answer, and can use either a switch statement or a series of if/else/if statements for the logic
 // name this variable quizAnswer
