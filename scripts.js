@@ -63,7 +63,14 @@ switch( answer){
 
 let concatenateStringsArrow = (str1, str2) =>  str1 + " " + str2;
 
-
+// -------------------------practice---------------------------------------------
+function logNumber (num){
+    //return num;
+    console.log (num);
+}
+logNumber(5);
+logNumber ("Hello");
+console.log (longNumber (9));
 // CODE BELOW IS COMPLETE - DO NOT EDIT
 
 // helper function for box 1, this accepts the user input and parses it into numbers and is called on the click of the submit button in the box
