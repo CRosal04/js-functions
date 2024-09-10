@@ -55,16 +55,13 @@ switch( answer){
 // TO DO
 
  let addTwoNumsArrow = (num1, num2) => num1 + num2 ;
- 
+
 
 // For box five, re-write the second standard function in the arrow function syntax
 // name the variable concatenateStringsArrow
 // TO DO
 
-
-
-
-
+let concatenateStringsArrow = (str1, str2) =>  str1 + " " + str2;
 
 
 // CODE BELOW IS COMPLETE - DO NOT EDIT
