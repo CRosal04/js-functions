@@ -73,7 +73,8 @@ logNumber ("Hello");
 //console.log(longNumber (9));
 console.log ( concatenateStringsArrow("taco" , " cat"));
 
-
+let mySum= addTwoNums (2,3);
+ console.log(mySum);
 // CODE BELOW IS COMPLETE - DO NOT EDIT
 
 // helper function for box 1, this accepts the user input and parses it into numbers and is called on the click of the submit button in the box
